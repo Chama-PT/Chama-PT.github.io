@@ -1016,13 +1016,6 @@ Só tente apagar a queimada se for seguro. Depois, mexa nos restos e confirme qu
     </a>
   </div>
   <div style="width:100%;margin-top:12px;border-top:1px solid #2e2e38;padding-top:12px;">
-    <nav aria-label="Risco de incêndio por distrito" style="margin-bottom:10px;">
-      <p style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#a8a4b0;margin-bottom:6px;letter-spacing:1px;text-transform:uppercase;">Risco por Distrito:</p>
-      <a href="https://chama-pt.github.io/aveiro" style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#c8c2d4;margin-right:16px;text-decoration:none;">Aveiro</a>
-      <a href="https://chama-pt.github.io/guarda" style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#c8c2d4;margin-right:16px;text-decoration:none;">Guarda</a>
-      <a href="https://chama-pt.github.io/porto" style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#c8c2d4;margin-right:16px;text-decoration:none;">Porto</a>
-      <a href="https://chama-pt.github.io/viseu" style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#c8c2d4;text-decoration:none;">Viseu</a>
-    </nav>
     <p style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#ffffff;line-height:1.8;max-width:700px;">
       🔒 Privacidade: A geolocalização GPS é usada apenas para determinar o concelho mais próximo e nunca é armazenada ou transmitida a terceiros. &nbsp;|&nbsp;
       <strong>chamaPT</strong> — Dados oficiais IPMA/ICNF &nbsp;|&nbsp;
@@ -2025,6 +2018,7 @@ window._refreshInterval = setInterval(loadLiveData, 30 * 60 * 1000);
     {name:'Aveiro',     file:'https://chama-pt.github.io/aveiro'},
     {name:'Porto',      file:'https://chama-pt.github.io/porto'},
     {name:'Viseu',      file:'https://chama-pt.github.io/viseu'},
+    {name:'Guarda',      file:'https://chama-pt.github.io/guarda'},
   ];
 
   const current = document.querySelector('.page-title .fire')?.textContent?.trim()?.toUpperCase() || '';

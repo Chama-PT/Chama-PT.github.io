@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://incendios-pt.github.io/sitemap.xml

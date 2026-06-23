@@ -4,8 +4,8 @@
 
   <url>
     <loc>https://chama-pt.github.io/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://chama-pt.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://chama-pt.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://chama-pt.github.io"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chama-pt.github.io"/>
     <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
